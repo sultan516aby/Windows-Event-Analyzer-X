@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+
+# Temporary files
+*.tmp
+*.log
+
+# Test cache
+.pytest_cache/
+
+# Windows event logs and private data
+*.evtx
