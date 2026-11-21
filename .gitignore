@@ -21,3 +21,5 @@ venv/
 
 # Windows event logs and private data
 *.evtx
+*__pycache__
+*.pytest_cache

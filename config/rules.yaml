@@ -1,0 +1,64 @@
+rules:
+  - name: Audit Log Cleared
+    event_id: 1102
+    severity: CRITICAL
+
+  - name: System Event Log Cleared
+    event_id: 104
+    severity: CRITICAL
+
+  - name: User Added to Privileged Group (Administrators)
+    event_id: 4732
+    severity: CRITICAL
+
+  - name: User Added to Domain Admins Group
+    event_id: 4728
+    severity: CRITICAL
+
+  - name: Kerberoasting Activity (TGS Requested with RC4)
+    event_id: 4769
+    severity: HIGH
+
+  - name: New Service Installed
+    event_id: 7045
+    severity: HIGH
+
+  - name: New Scheduled Task Created
+    event_id: 4698
+    severity: HIGH
+
+  - name: New User Account Created
+    event_id: 4720
+    severity: HIGH
+
+  - name: User Account Enabled
+    event_id: 4722
+    severity: HIGH
+
+  - name: Explicit Credentials Used (RunAs / Pass-the-Hash)
+    event_id: 4648
+    severity: HIGH
+
+  - name: Failed Logon
+    event_id: 4625
+    severity: HIGH
+
+  - name: Account Locked Out
+    event_id: 4740
+    severity: MEDIUM
+
+  - name: New Process Created
+    event_id: 4688
+    severity: MEDIUM
+
+  - name: Windows Firewall Rule Added or Modified
+    event_id: 4946
+    severity: MEDIUM
+
+  - name: PowerShell Script Block Logging (Suspicious Execution)
+    event_id: 4104
+    severity: MEDIUM
+
+  - name: Successful Logon
+    event_id: 4624
+    severity: LOW

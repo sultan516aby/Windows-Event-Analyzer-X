@@ -1,0 +1,3 @@
+11/20/2026 08:15:22 AM 4624 INFO Successful logon
+11/20/2026 08:20:10 AM 4625 WARNING Failed logon
+11/20/2026 08:25:30 AM 4688 INFO Process created

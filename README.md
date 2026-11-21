@@ -1,6 +1,6 @@
 Windows Event Analyzer X
 
-Advanced Windows Event Log Analysis Tool for SOC Analysts
+ Windows Event Log Analysis Tool for SOC Analysts
 
 About the Project
 

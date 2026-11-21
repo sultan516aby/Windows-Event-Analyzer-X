@@ -1,0 +1,5 @@
+timestamp,event_id,level,provider,message
+11/20/2026 08:15:22 AM,4624,INFO,Microsoft-Windows-Security-Auditing,Successful logon
+11/20/2026 08:20:10 AM,4625,WARNING,Microsoft-Windows-Security-Auditing,Failed logon
+11/20/2026 08:25:30 AM,4688,INFO,Microsoft-Windows-Security-Auditing,Process created
+11/20/2026 08:30:45 AM,1102,WARNING,Microsoft-Windows-Eventlog,Audit log cleared
